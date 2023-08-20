@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    text-decoration:red wavy underline;
+    line-height: 1.5;
+    font-family:avant garde,didot,sans-serif;
+}
+h2{
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    text-align: left;
+    text-decoration: line-through;
+}
+p{
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
