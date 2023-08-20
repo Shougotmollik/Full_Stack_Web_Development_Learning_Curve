@@ -18,3 +18,13 @@ h1,h3{
     color: aliceblue;
     background-color: green;
 }
+
+/* decendant selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: hotpink;
+}
