@@ -25,6 +25,32 @@ h1,h3{
     background-color: yellow;
 }
 
-nav ul li a{
+nav a{
     color: hotpink;
+}
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+button{
+    color: darkblue;
+    background-color: cornflowerblue;
+}
+
+div>input{
+    background-color:darksalmon;
+}
+
+/* Attribute selector  */
+
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+input[type]{
+    background-color: ghostwhite;
 }
