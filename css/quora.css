@@ -79,3 +79,15 @@ input[type="radio"]:checked+label[id="no"]{
     color: red;
     font-weight: bold;
 }
+
+h1::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::selection{
+    background-color: yellowgreen;
+}
