@@ -1,13 +1,16 @@
 div{
     text-align: left;
-    height: 200px;
-    width: 600px;
+    height: 150px;
+    width: 400px;
     background-color: pink;
     /* border-width: 5px;
     border-style: dotted;
     border-color: darkorange; */
     border: 5px solid darkorange;
     border-radius: 25px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 300px;
     
 }
 
@@ -18,6 +21,18 @@ h1{
     /* border-width: 2px;
     border-style: dashed;
     border-color: bisque; */
-    border:2px dashed bisque ;
-    border-right: double sienna;
+    margin-left: 450px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+button{
+    border:2px solid;
+    border-color: bisque;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: cornsilk;
+    color: brown;
+    margin-top: 25px;
+    margin-left: 475px;
 }
