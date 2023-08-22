@@ -1,4 +1,23 @@
 div{
+    text-align: left;
     height: 200px;
     width: 600px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: darkorange; */
+    border: 5px solid darkorange;
+    border-radius: 25px;
+    
+}
+
+h1{
+    height: 50px;
+    width: 300px;
+    color: rgb(196, 122, 25);
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: bisque; */
+    border:2px dashed bisque ;
+    border-right: double sienna;
 }
