@@ -7,4 +7,4 @@ TotalAmount=foodbill+tipAmount
 
 console.log("Your Food bill is "+foodbill)
 console.log("Your tips ammount " +tipAmount)
-console.log("Your total bill amount is "+TotalAmount)
+console.log("Your total bill amount is "+TotalAmount)  
