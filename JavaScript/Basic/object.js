@@ -17,9 +17,14 @@ const person={
 const introduction=(name,age)=>{
     const person={
         name:name,
-        age:age
+        age:age,
+        asset:100000,
+        libalities:60000,
+        networth:function(){
+           return this.asset - this.libalities
+        }
     }
-    const intro =` Hi my name is ${name}.I am ${age} years old.`
+    const intro =` Hi my name is ${person.name}.I am ${person.age} years old.My networth is ${person.networth()}.`
     return intro
 }
 console.log(introduction("shougot mollik","20"));
