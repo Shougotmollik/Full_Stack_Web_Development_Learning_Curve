@@ -28,4 +28,7 @@ function calculateFood(food,tip){
     return totalAmount
 }
 
-console.log(calculateFood(200,18));
+//console.log(calculateFood(200,18));
+
+const sumfun=(a,b)=>a+b
+console.log(sumfun(3,5));
