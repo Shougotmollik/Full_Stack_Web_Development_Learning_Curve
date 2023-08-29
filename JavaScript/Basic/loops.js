@@ -13,8 +13,10 @@ for(const number of numbers){
 
 const numericals=[1,2,3,4,5,6,7,8,9]
 let result=[]
+let resultPower=[]
 for(const numerical of numericals){
     result.push(numerical*2)
+    resultPower.push(numerical**2)
 }
 console.log(result);
-
+console.log(resultPower);
