@@ -17,3 +17,4 @@ for(const numerical of numericals){
     result.push(numerical*2)
 }
 console.log(result);
+
