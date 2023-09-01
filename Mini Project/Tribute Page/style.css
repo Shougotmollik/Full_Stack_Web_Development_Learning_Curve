@@ -3,7 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+/* html,body{
     height: 100%;
     width: 100%;
+} */
+
+/* Styling the body element */
+body{
+    background-color: #00fa9a;
+    margin: 20%;
+}
+
+/* Stylin the title */
+#title{
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    font-size: 7vh;
+}
+
+/* styling image */
+img{
+    display: inline-block;
+    width: 100%;
+}
+/* Image caption */
+#caption{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+/* Styling page content */
+div#tribute-data{
+    background-color: rgb(46,139,87,0.25);
+    box-shadow: 20px 20px 20px #98fb98;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+
+/* stying title of the content  */
+h1.title-Apj{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+/* Styling link */
+#tribute-link{
+    text-decoration: none;
+    color: black;
 }
