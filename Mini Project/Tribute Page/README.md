@@ -11,8 +11,8 @@ A tribute page is basically an overview of someone whom we admire in our life. I
 
 
 ## Demo
+![tribute](https://github.com/Shougotmollik/MERN_Stack_Full_Course/assets/113712457/82c75b34-140f-46ac-8663-d90cc48d94b6)
 
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210408170644/tribute.gif
 
 
 ## Supported Browser:
