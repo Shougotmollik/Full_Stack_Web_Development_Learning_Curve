@@ -15,8 +15,9 @@ Prerequisite: Basic concepts of HTML and CSS like tags, ID, color, margin, paddi
 
 
 ## Demo
+![Survey-Form](https://github.com/Shougotmollik/MERN_Stack_Full_Course/assets/113712457/62c6e287-faa2-4699-bb53-d01e21e03d75)
 
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210408170644/tribute.gif
+
 
 
 ## Supported Browser:
