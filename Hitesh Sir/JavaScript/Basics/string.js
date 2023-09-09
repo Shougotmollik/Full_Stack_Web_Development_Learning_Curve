@@ -1,4 +1,1 @@
-String="HELLO"
-
-myString="Shougot mollik"
-age=22
+const name="Shougot Mollik"
