@@ -1,0 +1,55 @@
+var name="Shougot mollik"
+var gretting="Hello"
+console.log(gretting,name);
+
+// * Exercise: Declaring variables
+
+/*
+!Tasks
+
+    Declare a new variable named petDog and give it the name Rex.
+
+    Declare a new variable named petCat and give it the name Pepper.
+
+    Console.log the petDog variable.
+
+    Console.log the petCat variable.
+
+    Console.log the text "My pet dog's name is: " and the petDog variable.
+
+    Console.log the text "My pet cat's name is: " and the petCat variable.
+
+    Declare another variable and name it catSound. Assign the string of "purr" to it.
+
+    Declare another variable and name it dogSound. Assign the string of "woof" to it.
+
+    Console.log the variable petDog, then the string "says", then the variable dogSound.
+
+    Console.log the variable petCat, then the string "says", then the variable catSound.
+
+    Reassign the value stored in catSound to the string "meow".
+
+    Console.log the variable petCat, then the string "now says", then the variable catSound.
+
+Make sure to output all your variables. Feel free to play.
+*/
+
+// ?Solution 
+
+var petDog="Rex";
+var petCat="Pepper";
+console.log(petDog);
+console.log(petCat);
+console.log("My pet dog's name is : ",petDog)
+console.log("My pet Cat's name is : ",petCat)
+
+var  catSound="purr"
+var dogSound="woof"
+console.log(petDog,"says",dogSound)
+console.log(petDog,"says",catSound)
+
+var catSound="meow"
+console.log(petCat,"now says",catSound)
+
+var petDog = 'Rex'; // Task 1 solution
+console.log(petDog);
