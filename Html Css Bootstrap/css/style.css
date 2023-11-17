@@ -1,0 +1,7 @@
+/* this is commnet example for css */
+body {
+  background-image: url("back-image.jpg");
+  background-size: 100%;
+  background-attachment: scroll;
+  border: 5px dotted rgb(112, 107, 107);
+}
