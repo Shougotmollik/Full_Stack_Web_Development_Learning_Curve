@@ -1,0 +1,30 @@
+.box {
+  border: 0.2rem solid black;
+  height: 20rem;
+  width: 25rem;
+  background-image: linear-gradient(to bottom right, yellow, orange,green);
+}
+
+.radial {
+  border: 0.2rem solid black;
+  margin-top: 2rem;
+  height: 20rem;
+  width: 25rem;
+  background-image: radial-gradient(yellow,orange,green);
+}
+
+.conic{
+ border: .2rem solid black;
+ margin-top: 2rem;
+ height: 20rem;
+ width: 25rem;
+ background-image: conic-gradient(yellow,orange,green);
+}
+
+.flag{
+ border: .2rem solid black;
+ margin-top: 2rem;
+ height: 10rem;
+ width: 20rem;
+ background-image: linear-gradient(orange,white,green );
+}
