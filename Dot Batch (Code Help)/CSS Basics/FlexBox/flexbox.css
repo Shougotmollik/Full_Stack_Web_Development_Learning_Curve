@@ -1,0 +1,15 @@
+.container {
+  border: 0.2rem solid black;
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  /* flex-direction: row-reverse;
+   */
+  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.box {
+  border: 0.2rem solid blue;
+}
