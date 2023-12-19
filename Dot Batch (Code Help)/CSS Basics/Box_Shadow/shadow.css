@@ -1,13 +1,13 @@
-h1{
- text-shadow: 3px 3px 3px black;
+h1 {
+  text-shadow: 3px 3px 3px black;
 }
-.box{
- border: .2rem solid black;
- border-radius: 2rem;
- padding: 2rem;
- height: 20rem;
- width: 25rem;
- box-shadow: 6px 6px 6px green ,-6px -6px 6px orange;
- 
- background-image: linear-gradient(to right,orange,green,yellow);
+.box {
+  border: 0.2rem solid black;
+  border-radius: 2rem;
+  padding: 2rem;
+  height: 20rem;
+  width: 25rem;
+  box-shadow: 6px 6px 6px green, -6px -6px 6px orange;
+
+  background-image: linear-gradient(to right, orange, green, yellow);
 }
