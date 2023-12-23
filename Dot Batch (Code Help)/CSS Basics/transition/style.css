@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 60rem;
+  width: 40rem;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+ height: 10rem;
+ width: 10rem;
+ background-color: orangered;
+ border: .2rem solid black;
+ border-radius: 2.5rem;
+ padding: 2.5rem;
+ transition: all 3s ease 1s;
+}
+
+.box:hover{
+ background-color: blueviolet;
+ transform: rotate(360deg) translatex(500px) scale(2);
+}
