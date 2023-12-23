@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 300px;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.box {
+  height: 250px;
+  width: 250px;
+  background-color: orange;
+  border: 0.2rem solid orangered;
+  border-radius: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation-name: shougot;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+@keyframes shougot {
+ from{
+  width: 250px;
+ }
+ to{
+  width: 500px;
+ }
+}
