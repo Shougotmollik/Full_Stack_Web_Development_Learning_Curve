@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 800px;
+  width: 600px;
+  border: 1px dotted black;
+  background-color: yellowgreen;
+  display: grid;
+  grid-template-rows: 30px 1fr 30px;
+  grid-template-columns: 100px 400px;
+  grid-template-areas:
+    "hd hd hd "
+    "sd main main"
+    "ft ft ft ";
+  grid-gap: 10px;
+}
+.box {
+  border: 0.1rem solid black;
+  background-color: orange;
+}
+
+#hader {
+  grid-area: hd;
+}
+#sidebar {
+  grid-area: sd;
+}
+#content {
+  grid-area: main;
+}
+#footer {
+  grid-area: ft;
+}
