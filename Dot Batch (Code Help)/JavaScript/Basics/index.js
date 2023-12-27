@@ -96,4 +96,10 @@ let numbers = [1, 2, 3, 4, 5, 6];
 
 let student = numbers.map((value) => "number " + value);
 
-console.log(student);
+// console.log(student);
+
+
+
+
+
+
