@@ -98,8 +98,10 @@ let student = numbers.map((value) => "number " + value);
 
 // console.log(student);
 
-
-
-
-
+let arr = [1, 2, 3, 4, 5, 6];
+let total = 0;
+for (let value of arr) {
+  total += value;
+  // console.log(total);
+}
 
