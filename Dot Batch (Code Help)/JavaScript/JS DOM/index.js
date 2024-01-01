@@ -46,5 +46,20 @@ function addMessage() {
   document.body.appendChild(para);
 }
 
-addPara();
-addMessage();
+// addPara();
+// addMessage();
+
+// settimeout()
+
+// setTimeout(function () {
+//   console.log("hello");
+// }, 5000);
+
+//promise
+
+let myPromise = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    console.log("hello");
+    reject(new console.error("error hai"));
+  },5000);
+});
