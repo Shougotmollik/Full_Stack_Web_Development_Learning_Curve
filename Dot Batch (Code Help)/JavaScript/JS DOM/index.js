@@ -57,9 +57,31 @@ function addMessage() {
 
 //promise
 
-let myPromise = new Promise(function (resolve, reject) {
-  setTimeout(function () {
-    console.log("hello");
-    reject(new console.error("error hai"));
-  },5000);
-});
+// let myPromise = new Promise(function (resolve, reject) {
+//   setTimeout(function () {
+//     console.log("hello");
+//     reject(new console.error("error hai"));
+//   },5000);
+// });
+
+// let wadda1 = new Promise(function (resolve, reject) {
+//   setTimeout(() => {
+//     console.log("I am wadda1");
+//   }, 5000);
+//   resolve(true);
+// });
+
+// wadda1
+//   .then(() => {
+//     let wadda2 = new Promise(function () {
+//       resolve("wadda 2 reslove");
+//     });
+//     return wadda2;
+//   })
+//   .then((value) => {
+//     console.log(value);
+//   });
+
+async function abcd() {
+  return "hello";
+}
