@@ -12,6 +12,7 @@ function App() {
     },
     {
       name: "apple",
+      price: "11",
     },
   ];
 
