@@ -10,6 +10,10 @@ function App() {
       name: "orange",
       price: "10",
     },
+    {
+      name: "apple",
+      price: "11",
+    },
   ];
 
   return (
