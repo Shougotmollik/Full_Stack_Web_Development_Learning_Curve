@@ -1,30 +1,40 @@
-import { StatusBar } from "expo-status-bar";
-import { useState } from "react";
-import {
-  Text,
-  View,
-  StyleSheet,
-  ScrollViewComponent,
-  ScrollView,
-  Image,
-  ImageBackground,
-  Button,
-  Pressable,
-  Modal,
-  ActivityIndicator,
-  Alert,
-} from "react-native";
-import Greet from "./components/Greet";
-const imgload = require("./assets/adaptive-icon.png");
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
-export default function App() {
-  const [isVisiable, setIsvisiable] = useState(false);
-
+function App() {
   return (
-    <View style={{ flex: 1, paddingTop: 40 }}>
-      <View style={{ backgroundColor: "yellow", flex: 1 }}>
-        <Greet name="shougot" />
+    <View style={styles.container}>
+      <View style={[styles.box, styles.box1, styles.box_shadow]}>
+        <Text>Hello</Text>
       </View>
+      <View style={[styles.box, styles.box2, styles.box_shadow]}></View>
     </View>
   );
 }
+
+export default App;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "aqua",
+    padding: 60,
+  },
+  box: {
+    height: 200,
+    width: 200,
+    margin: 20,
+    borderRadius: 25,
+    borderWidth: 2,
+  },
+  box1: {
+    backgroundColor: "red",
+  },
+  box2: {
+    backgroundColor: "yellow",
+  },
+  box_shadow: {
+    elevation: 30,
+    shadowColor: "blue",
+  },
+});
