@@ -12,16 +12,19 @@ import {
   Pressable,
   Modal,
   ActivityIndicator,
+  Alert,
 } from "react-native";
+import Greet from "./components/Greet";
 const imgload = require("./assets/adaptive-icon.png");
 
 export default function App() {
   const [isVisiable, setIsvisiable] = useState(false);
 
   return (
-    <View style={{ flex: 1 }}>
-      <StatusBar backgroundColor="limegreen" />
-      <ActivityIndicator />
+    <View style={{ flex: 1, paddingTop: 40 }}>
+      <View style={{ backgroundColor: "yellow", flex: 1 }}>
+        <Greet name="shougot" />
+      </View>
     </View>
   );
 }
