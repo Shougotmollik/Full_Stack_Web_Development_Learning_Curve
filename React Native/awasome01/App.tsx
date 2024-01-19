@@ -1,11 +1,13 @@
 import React from 'react';
 import {ScrollView, View, Text} from 'react-native';
+import AppPro from './AppPro';
 
 function App() {
   return (
     <ScrollView>
       <View>
-        <Text>hello World</Text>
+        <Text>hello</Text>
+        <AppPro/>
       </View>
     </ScrollView>
   );
