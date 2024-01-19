@@ -5,6 +5,7 @@ function AppPro() {
   return (
     <View>
       <Text>shougot</Text>
+      <View></View>
     </View>
   );
 }
