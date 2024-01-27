@@ -1,11 +1,13 @@
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import HomeScreen from "./App/Screen/HomeScreen";
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <HomeScreen />
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <HomeScreen />
+      </ScrollView>
     </SafeAreaView>
   );
 };
