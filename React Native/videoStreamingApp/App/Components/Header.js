@@ -24,13 +24,14 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginTop: 10,
-    padding: 10,
+    marginTop: 30,
+    padding: 15,
   },
   ImageStyles: {
     height: 50,
     width: 50,
     borderRadius: 100,
+    margin: 10,
   },
   welcomeText: {
     fontSize: 24,
