@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from "react-native";
+import React from "react";
+import YtPlayer from "../Components/YtPlayer";
 
 const PlayListScreen = () => {
   return (
     <View>
-      <Text>PlayListScreen</Text>
+      <YtPlayer />
     </View>
-  )
-}
+  );
+};
 
-export default PlayListScreen
+export default PlayListScreen;
